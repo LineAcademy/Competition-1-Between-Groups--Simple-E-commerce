@@ -1,0 +1,514 @@
+body{
+    font-family: 'Alegreya', serif;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Jost', sans-serif;
+    padding: 0;
+    margin: 0;
+    /* overflow-x: hidden; */
+}
+a{
+    
+    text-decoration: none;
+}
+:root{
+    --green-color:#a6c76c;
+    --main-color:#999;
+}
+::selection{
+    background-color:var( --green-color) ;
+    color: white;
+}
+.Columns{
+    background-image: url(../img/page-header-bg.jpg);
+    background-size: cover;
+    text-transform: capitalize;
+    padding: 2rem;
+
+}
+
+.Columns span{
+    color: var(--green-color);
+    font-size: 1.2rem;
+}
+
+/* section home , fashion*/
+
+.home .spanHome::after{
+    content: '\f054';
+}
+.home span ,.wordFilter{
+    font-size: 0.9rem;
+}
+.home .colorHo , .home .spanHome ,.wordFilter{
+color: var(--main-color);
+}
+
+/*  section line*/
+
+.line{
+    width: 100%;
+    height: 0.01rem;
+    background-color: rgba(207, 204, 204, 0.55);
+
+}
+
+/* section filter */
+input ,label{
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+.Categor{
+    color: #333;
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: -.01em;
+    padding-bottom: 0.9rem;
+    text-transform: capitalize;
+}
+.bordNum span{
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #f8f8f8;
+    border-radius: 0.3rem;
+    color: #999;
+    padding: 0.2rem;
+}
+.iconChange{
+    background-color: transparent;
+}
+
+.iconChange i{
+    color: var(--main-color);
+    display: none;
+}
+
+.iconChange{
+
+}
+/* size */
+
+.accordion-button:not(.collapsed) {
+    color: #333;
+    background-color: white;
+    box-shadow: none;
+}
+
+.accordion-item {
+    background-color: #fff;
+    border: none;
+   
+     
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  
+}
+.accordion-button:focus {
+   
+    box-shadow: none;
+}
+.scrollSize{
+    max-height: 365px;
+    overflow-y: scroll;
+
+}
+
+/* .XX::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+    */
+
+
+/* ================================================================ */
+/* section color */
+
+
+
+.colorCh li{
+
+    /* background-color: ; */
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+}
+
+
+
+.accordion-body {
+    padding: 0;
+    padding-top: 1.5rem;
+}
+
+.colorCh{
+    width: 90%;
+}
+
+/* section image */
+
+.numOf{
+    color: black;
+}
+
+.data::after{
+content: "\f107";
+}
+
+.bordDate{
+    cursor: pointer;
+}
+
+.imgStyle{
+    overflow: hidden;
+}
+
+.contentUl ul{
+    background-color: #ffffff;
+    padding: 0.5rem 1rem;
+
+}
+.contentUl{
+    margin-top: 1rem;
+    box-shadow: 5px 10px 16px rgb(51 51 51 / 5%), -5px 10px 16px rgb(51 51 51 / 5%);
+    width: auto;
+    line-height: 2rem;
+
+    position: absolute;
+    bottom:97% ;
+    display: none;
+    transition: all 0.5s;
+    /* visibility: hidden; */
+    /* opacity: 0; */
+}
+
+.contDateUl:hover .contentUl{
+
+    top: 100%;
+
+    display: block;
+    z-index: 99999999999999999999;
+
+    /* opacity: 1; */
+
+}
+
+
+.fa-th-large {
+    font-size: 0.7rem;
+}
+
+
+
+.imgStyle{
+    width: 30%;
+    /* height: 10rem;
+    
+    margin-bottom:14rem ; */
+    cursor: pointer;
+    transition: all 3s;
+    background-color: transparent;
+    box-shadow: none;
+}
+.imgStyle img{
+    width: 110%;
+    position: relative;
+    left: -5%;
+    right: 0;
+}
+
+
+.iconHeard{
+    top: 1rem;
+    right: 1.5rem;
+    width: auto;
+}
+/*  hover icon in images */
+.bordIconImg {
+    /* background-color:  #1D809F; */
+    border: transparent solid 1px;
+    height: 25px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.wordIcon{
+    font-size: small;
+    height: 25px;
+    border: transparent solid 1px;
+    border-radius: 3%;
+    padding-top: 0.1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    background-color: var(--green-color);
+    opacity: 0;
+
+
+}
+.contenerIcon{
+    transition: all 0.5s;
+
+}
+.contenerIcon:hover .wordIcon{
+    opacity: 1;
+}
+.contenerIcon:hover .bordIconImg{
+border-top-left-radius: 0;
+border-bottom-left-radius: 0;
+}
+
+.bordIconImg i{
+    color: var(--main-color);
+    transition: all 0.5s;
+}
+
+.imgStyle{
+    transition: all 0.5s;
+}
+
+.imgStyle:hover .bordIconImg{
+
+opacity: 1;
+
+background-color: var(--green-color);
+}
+
+.bordIconImg:hover i{
+   color: white;
+
+}
+.imgStyle:hover{
+    box-shadow: 5px 10px 16px rgb(51 51 51 / 5%), -5px 10px 16px rgb(51 51 51 / 5%);
+
+}
+
+.imgStyle .boxIconPlus{
+    transform: translateY(200%);
+    transition: all 0.5s;
+
+}
+.imgStyle .pic2 {
+    display: none;
+    transition: all 0.5;
+}
+
+.imgStyle:hover .boxIconPlus{
+    transform: translateY(0);
+}
+
+
+.imgStyle:hover .pic1 {
+    display: none;
+}
+ .pic2{
+    overflow: hidden;
+    transition: all 8s;
+}
+
+.imgStyle:hover .pic2 {
+    display: block;
+    transform: scaleY(1.1 ,1.1);
+
+}
+.greenword{
+    color: var(--green-color);
+}
+
+.boxIconPlus ,.scWord{
+    transition: all 0.5s;
+}
+.scWord:hover{
+    color: var(--green-color);
+}
+
+.boxIconPlus:hover{
+    background-color: var(--green-color);
+    color: white;
+}
+
+
+
+/* end */
+
+.navEnd{
+     position: relative;
+    
+    margin-top: -2rem;
+
+}
+
+.colend{
+    position: absolute;
+    right: 10%;
+}
+
+.pagination li{
+    margin: 0 0.5rem ;
+}
+
+.textMuted{
+    color: rgb(216, 214, 214);
+}
+.textMuted:hover{
+    color: rgb(216, 214, 214);
+
+}
+.pagination li{
+    font-size: small;
+}
+
+.bordONE{
+    border: #d8d4d4 solid 0.1px;
+    padding: 0.5rem;
+    border-radius: 0.1rem;
+}
+.bordONE a{
+    color: #d8d4d4;
+}
+
+.hovNum a{
+    color: rgb(110, 108, 108);
+}
+.hovNum{
+    transition: all 0.2s;
+}
+.hovNum:hover{
+    border: #d8d4d4 solid 0.1px;
+    color: var(--green-color);
+    padding: 0.5rem;
+    border-radius: 0.1rem;
+}
+
+.hovNum:hover a{
+    color: var(--green-color);
+
+}
+
+.btnUp{
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    width: 50px;
+    height: 50px;
+    border: #d8d4d4 solid 0.1px;
+    text-align: center;
+    color: #d8d4d4 ;
+    background-color: white;
+    line-height: 50px;
+    z-index: 999;
+    border-radius: 5%;
+}
+
+/* ---------------------------------------------------------------------- */
+
+
+.contentLayer{
+    position: fixed;
+    top:0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #FAFAFA;
+   z-index: 999999999999999999999999999999999999999999999999999999999999999;
+}
+
+.wFilter{
+    width: 90%;
+}
+.wColor{
+    width: 92%;
+}
+
+.contentLayer{
+    max-height: 1500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.btn-primary{
+    border: var(--green-color) !important;
+    background-color: var(--green-color) !important;
+    box-shadow: none !important;
+}
+
+
+
+
+#closeIcon{
+cursor: pointer;
+}
+
+
+
+@media(max-width:767px){
+    .contDateUl{
+        width: 50%;
+        /* background-color: red; */
+        position: relative;
+        top: -20px;
+        left: 50%;
+    }
+
+    .showing{
+        display: none;
+    }
+
+    .Compare{
+        display: none !important;
+    }
+
+}
+
+@media(min-width:767px) and (max-width:1000px){
+
+    .contDateUl {
+        width: 50%;
+        /* background-color: red; */
+        position: relative;
+        top: -30px;
+        left: 15%;
+    }
+
+    .showing{
+        width: 50%;
+
+        position: relative;
+        top: -30px;
+        left: 25%;
+    }
+   
+ 
+}
+
+@media(max-width:1000px){
+    .iconChange{
+        cursor: pointer;
+    }
+
+     .iconChange i{
+        display: inline-block;
+        font-size: 0.8rem;
+    }
+    .iconChange .wordFilter{
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        color: #333;
+        transition: all 0.5s;
+    }
+
+    .iconChange .wordFilter:hover{
+       
+        color: var(--green-color);
+    }
+
+
+}
+
+
+

@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="E-Commerce Site Product Page for wommen and men,  Fast shipping. 1-click payment. Pay in installments. 30 days free returns."
+    />
+    <meta name="keywords" content="clothes, shoes, ACCESSORIES'S" />
+    <meta name="author" content="hosam" />
+    <title>Molla || shop</title>
+    <!-- icon -->
+    <link rel="icon" type="image/png" href="img/favicon.webp" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- swipper js -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- icons -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- start navbar -->
+    <nav class="py-3">
+      <div class="container">
+        <div class="row justifiy-content-between align-items-center">
+          <div class="col-5 col-lg-2 col-xl-3">
+            <a class="navbar-brand" href="index.html">
+              <img src="img/logo.webp" alt="logo" />
+            </a>
+          </div>
+          <div class="col-12 col-lg-6 d-none d-lg-block">
+            <form class="ms-auto">
+              <div class="form-search">
+                <input
+                  class="me-2"
+                  type="text"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <select
+                  class="position-absolute top-50 translate-middle-y"
+                  id="inputGroupSelect01"
+                >
+                  <option selected>Choose...</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+                <div
+                  class="form-search-icon position-absolute top-50 translate-middle"
+                  type="submit"
+                >
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-7 col-md-6 col-lg-3 order-2 ms-auto">
+            <div class="d-flex align-items-center justify-content-end">
+              <div class="d-flex flex-column cursor-pointer ms-5 text-sm">
+                <i class="fa-regular icon fa-user"></i>
+                <span class="text-xm">account</span>
+              </div>
+              <div class="d-flex flex-column ms-5 cursor-pointer">
+                <i class="fa-regular icon fa-heart"></i>
+                <span class="text-xm">watchlist</span>
+              </div>
+              <div class="d-flex flex-column ms-5 cursor-pointer">
+                <i class="fa-solid icon fa-cart-shopping"></i>
+                <span class="text-xm">cart</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- start hero-banner -->
+    <div>
+      <!-- banner-img -->
+      <div class="hero-banner d-flex justify-content-center align-items-center">
+        <div class="text-center">
+          <h3>Grid Columns</h3>
+          <p class="text-main">Shop</p>
+        </div>
+      </div>
+      <!-- navigation -->
+      <div class="container">
+        <div class="mt-2 text-sm">
+          <a href="index.html" class="text-muted hvr-main-clr">Home</a>
+          <span class="px-2"> <i class="fa-solid fa-angle-right"></i> </span>
+          <span>Fashon All</span>
+        </div>
+      </div>
+    </div>
+    <!-- start hero-banner -->
+
+    <!-- filter -->
+    <div class="filter">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="filter-box text-muted text-sm">
+              <span class="mt-4 d-inline-block mb-4">filter :</span>
+              <ul>
+                <h2 class="text-xl my-4">Category</h2>
+                <li class="mb-3">Fashion</li>
+                <li class="mb-3">Electronic</li>
+                <li class="mb-3">furniture</li>
+                <li class="mb-3">Decore</li>
+                <li class="mb-3">Lighting</li>
+              </ul>
+              <div class="line my-1"></div>
+              <ul>
+                <div class="d-flex justify-content-between align-items-center">
+                  <h2 class="text-xl my-4">size</h2>
+                  <span><i class="fa-solid fa-chevron-down"></i></span>
+                </div>
+                <div class="size">
+                  <li class="mb-3">37</li>
+                  <li class="mb-3">38</li>
+                  <li class="mb-3">39</li>
+                  <li class="mb-3">40</li>
+                  <li class="mb-3">41</li>
+                  <li class="mb-3">42</li>
+                  <li class="mb-3">extra large</li>
+                  <li class="mb-3">free size</li>
+                  <li class="mb-3">l</li>
+                  <li class="mb-3">xl</li>
+                </div>
+              </ul>
+              <div class="line my-2"></div>
+              <div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <h2 class="text-xl my-4">Colors</h2>
+                  <span><i class="fa-solid fa-chevron-down"></i></span>
+                </div>
+                  <ul class="d-flex">
+                    <li class="me-2 mb-3" style="background-color:yellow; width:20px; height: 20px; border-radius: 50%;"></li>
+                    <li class="me-2 mb-3" style="background-color:red; width:20px; height: 20px; border-radius: 50%;"></li>
+                    <li class="me-2 mb-3" style="background-color:green; width:20px; height: 20px; border-radius: 50%;"></li>
+                    <li class="me-2 mb-3" style="background-color:blue; width:20px; height: 20px; border-radius: 50%;"></li>
+                  </ul>
+              </div>
+              <div class="line my-1"></div>
+              <div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <h2 class="text-xl my-4">Brand</h2>
+                  <span><i class="fa-solid fa-chevron-down"></i></span>
+                </div>
+                  <ul class="d-flex">
+                    <li class="p-2 border me-1 cursor-pointer">GTX</li>
+                    <li class="p-2 border me-1 cursor-pointer">Heels</li>
+                    <li class="p-2 border me-1 cursor-pointer">Nike</li>
+                    <li class="p-2 border me-1 cursor-pointer">The North Face</li>
+                  </ul>
+              </div>
+              <div class="line my-4"></div>
+              <ul>
+                <h2 class="text-xl my-4">Price</h2>
+                <li class="mb-3">$150-$500</li>
+                <li class="mb-3">$50-$150</li>
+                <li class="mb-3">$7-$50</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="mt-3">
+              <div class="row justify-content-between align-items-center mb-4">
+                <div class="col-md-4">
+                  <p class="text-sm">Showing 16 of 87 results</p>
+                </div>
+                <div class="col-md-8 text-md-end">
+                  <select name="" class="select py-1 px-1 me-2" id="">
+                    <option value="Date old to show">data, old to new</option>
+                    <option value="Date old to show">data</option>
+                    <option value="Date old to show">data</option>
+                    <option value="Date old to show">data</option>
+                  </select>
+                  <i class="fa-solid fa-grip"></i>
+                  <i class="fa-solid fa-grip"></i>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 col-sm-6 mb-4">
+                <div class="">
+                    <div class="rotate-img-parent">
+                      <div class="overflow-hidden">
+                        <img src="img/products/product-1.webp" alt="shoes" class="img-fluid" />
+                      </div>
+                      <div class="rotate-img overflow-hidden">
+                        <img src="img/products/product-1.webp" alt="shoes" class="img-fluid" />
+                        <div class="item-show">
+                          <div class="border-box">
+                            <i class="fa-regular fa-heart"></i>
+                          </div>
+                          <div class="border-box"><i class="fa-solid fa-eye"></i></div>
+                        </div>
+                        <div class="cursor-pointer position-absolute bottom-0 text-center start-50 translate-middle-x bg-white w-100 hvr-main-clr py-2">
+                          <i class="fa-solid fa-cart-shopping pe-2"></i> add to cart
+                        </div>
+                      </div>
+      
+                      <div class="text-center">
+                        <p class="mb-0 mt-3">long Fit T-Shirt</p>
+                        <p class="mb-0">9.99</p>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 mb-4">
+                <div class="">
+                    <div class="rotate-img-parent">
+                      <div class="overflow-hidden">
+                        <img src="img/products/product-1.webp" alt="shoes" class="img-fluid" />
+                      </div>
+                      <div class="rotate-img overflow-hidden">
+                        <img src="img/products/product-1.webp" alt="shoes" class="img-fluid" />
+                        <div class="item-show">
+                          <div class="border-box">
+                            <i class="fa-regular fa-heart"></i>
+                          </div>
+                          <div class="border-box"><i class="fa-solid fa-eye"></i></div>
+                        </div>
+                        <div class="cursor-pointer position-absolute bottom-0 text-center start-50 translate-middle-x bg-white w-100 hvr-main-clr py-2">
+                          <i class="fa-solid fa-cart-shopping pe-2"></i> add to cart
+                        </div>
+                      </div>
+      
+                      <div class="text-center">
+                        <p class="mb-0 mt-3">long Fit T-Shirt</p>
+                        <p class="mb-0">9.99</p>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 mb-4">
+                <div class="">
+                    <div class="rotate-img-parent">
+                      <div class="overflow-hidden">
+                        <img src="img/products/product-1.webp" alt="shoes" class="img-fluid" />
+                      </div>
+                      <div class="rotate-img overflow-hidden">
+                        <img src="img/products/product-1.webp" alt="shoes" class="img-fluid" />
+                        <div class="item-show">
+                          <div class="border-box">
+                            <i class="fa-regular fa-heart"></i>
+                          </div>
+                          <div class="border-box"><i class="fa-solid fa-eye"></i></div>
+                        </div>
+                        <div class="cursor-pointer position-absolute bottom-0 text-center start-50 translate-middle-x bg-white w-100 hvr-main-clr py-2">
+                          <i class="fa-solid fa-cart-shopping pe-2"></i> add to cart
+                        </div>
+                      </div>
+      
+                      <div class="text-center">
+                        <p class="mb-0 mt-3">long Fit T-Shirt</p>
+                        <p class="mb-0">9.99</p>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 mb-4">
+                <div class="">
+                    <div class="rotate-img-parent">
+                      <div class="overflow-hidden">
+                        <img src="img/products/product-1.webp" alt="shoes" class="img-fluid" />
+                      </div>
+                      <div class="rotate-img overflow-hidden">
+                        <img src="img/products/product-1.webp" alt="shoes" class="img-fluid" />
+                        <div class="item-show">
+                          <div class="border-box">
+                            <i class="fa-regular fa-heart"></i>
+                          </div>
+                          <div class="border-box"><i class="fa-solid fa-eye"></i></div>
+                        </div>
+                        <div class="cursor-pointer position-absolute bottom-0 text-center start-50 translate-middle-x bg-white w-100 hvr-main-clr py-2">
+                          <i class="fa-solid fa-cart-shopping pe-2"></i> add to cart
+                        </div>
+                      </div>
+      
+                      <div class="text-center">
+                        <p class="mb-0 mt-3">long Fit T-Shirt</p>
+                        <p class="mb-0">9.99</p>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 mb-4">
+                <div class="">
+                    <div class="rotate-img-parent">
+                      <div class="overflow-hidden">
+                        <img src="img/products/product-1.webp" alt="shoes" class="img-fluid" />
+                      </div>
+                      <div class="rotate-img overflow-hidden">
+                        <img src="img/products/product-1.webp" alt="shoes" class="img-fluid" />
+                        <div class="item-show">
+                          <div class="border-box">
+                            <i class="fa-regular fa-heart"></i>
+                          </div>
+                          <div class="border-box"><i class="fa-solid fa-eye"></i></div>
+                        </div>
+                        <div class="cursor-pointer position-absolute bottom-0 text-center start-50 translate-middle-x bg-white w-100 hvr-main-clr py-2">
+                          <i class="fa-solid fa-cart-shopping pe-2"></i> add to cart
+                        </div>
+                      </div>
+      
+                      <div class="text-center">
+                        <p class="mb-0 mt-3">long Fit T-Shirt</p>
+                        <p class="mb-0">9.99</p>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 mb-4">
+                <div class="">
+                    <div class="rotate-img-parent">
+                      <div class="overflow-hidden">
+                        <img src="img/products/product-1.webp" alt="shoes" class="img-fluid" />
+                      </div>
+                      <div class="rotate-img overflow-hidden">
+                        <img src="img/products/product-1.webp" alt="shoes" class="img-fluid" />
+                        <div class="item-show">
+                          <div class="border-box">
+                            <i class="fa-regular fa-heart"></i>
+                          </div>
+                          <div class="border-box"><i class="fa-solid fa-eye"></i></div>
+                        </div>
+                        <div class="cursor-pointer position-absolute bottom-0 text-center start-50 translate-middle-x bg-white w-100 hvr-main-clr py-2">
+                          <i class="fa-solid fa-cart-shopping pe-2"></i> add to cart
+                        </div>
+                      </div>
+      
+                      <div class="text-center">
+                        <p class="mb-0 mt-3">long Fit T-Shirt</p>
+                        <p class="mb-0">9.99</p>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 mb-4">
+                <div class="">
+                    <div class="rotate-img-parent">
+                      <div class="overflow-hidden">
+                        <img src="img/products/product-1.webp" alt="shoes" class="img-fluid" />
+                      </div>
+                      <div class="rotate-img overflow-hidden">
+                        <img src="img/products/product-1.webp" alt="shoes" class="img-fluid" />
+                        <div class="item-show">
+                          <div class="border-box">
+                            <i class="fa-regular fa-heart"></i>
+                          </div>
+                          <div class="border-box"><i class="fa-solid fa-eye"></i></div>
+                        </div>
+                        <div class="cursor-pointer position-absolute bottom-0 text-center start-50 translate-middle-x bg-white w-100 hvr-main-clr py-2">
+                          <i class="fa-solid fa-cart-shopping pe-2"></i> add to cart
+                        </div>
+                      </div>
+      
+                      <div class="text-center">
+                        <p class="mb-0 mt-3">long Fit T-Shirt</p>
+                        <p class="mb-0">9.99</p>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 mb-4">
+                <div class="">
+                    <div class="rotate-img-parent">
+                      <div class="overflow-hidden">
+                        <img src="img/products/product-1.webp" alt="shoes" class="img-fluid" />
+                      </div>
+                      <div class="rotate-img overflow-hidden">
+                        <img src="img/products/product-1.webp" alt="shoes" class="img-fluid" />
+                        <div class="item-show">
+                          <div class="border-box">
+                            <i class="fa-regular fa-heart"></i>
+                          </div>
+                          <div class="border-box"><i class="fa-solid fa-eye"></i></div>
+                        </div>
+                        <div class="cursor-pointer position-absolute bottom-0 text-center start-50 translate-middle-x bg-white w-100 hvr-main-clr py-2">
+                          <i class="fa-solid fa-cart-shopping pe-2"></i> add to cart
+                        </div>
+                      </div>
+      
+                      <div class="text-center">
+                        <p class="mb-0 mt-3">long Fit T-Shirt</p>
+                        <p class="mb-0">9.99</p>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 mb-4">
+                <div class="">
+                    <div class="rotate-img-parent">
+                      <div class="overflow-hidden">
+                        <img src="img/products/product-1.webp" alt="shoes" class="img-fluid" />
+                      </div>
+                      <div class="rotate-img overflow-hidden">
+                        <img src="img/products/product-1.webp" alt="shoes" class="img-fluid" />
+                        <div class="item-show">
+                          <div class="border-box">
+                            <i class="fa-regular fa-heart"></i>
+                          </div>
+                          <div class="border-box"><i class="fa-solid fa-eye"></i></div>
+                        </div>
+                        <div class="cursor-pointer position-absolute bottom-0 text-center start-50 translate-middle-x bg-white w-100 hvr-main-clr py-2">
+                          <i class="fa-solid fa-cart-shopping pe-2"></i> add to cart
+                        </div>
+                      </div>
+      
+                      <div class="text-center">
+                        <p class="mb-0 mt-3">long Fit T-Shirt</p>
+                        <p class="mb-0">9.99</p>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6 mb-4">
+                <div class="">
+                    <div class="rotate-img-parent">
+                      <div class="overflow-hidden">
+                        <img src="img/products/product-1.webp" alt="shoes" class="img-fluid" />
+                      </div>
+                      <div class="rotate-img overflow-hidden">
+                        <img src="img/products/product-1.webp" alt="shoes" class="img-fluid" />
+                        <div class="item-show">
+                          <div class="border-box">
+                            <i class="fa-regular fa-heart"></i>
+                          </div>
+                          <div class="border-box"><i class="fa-solid fa-eye"></i></div>
+                        </div>
+                        <div class="cursor-pointer position-absolute bottom-0 text-center start-50 translate-middle-x bg-white w-100 hvr-main-clr py-2">
+                          <i class="fa-solid fa-cart-shopping pe-2"></i> add to cart
+                        </div>
+                      </div>
+      
+                      <div class="text-center">
+                        <p class="mb-0 mt-3">long Fit T-Shirt</p>
+                        <p class="mb-0">9.99</p>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- start footer -->
+    <div class="footer py-5 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-lg-6">
+            <img src="img/logo.webp" alt="logo"/>
+            <p class="fw-light lead text-black-50 mt-4">Praesent dapibus, neque id cursus ucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
+            
+            <div class="row mt-5">
+              <div class="col-sm-6 col-md-4">
+                <span class="text-xm text-muted">Got Question? Call us 24/7</span>
+                <p class="mt-1">+98 765 432</p>
+              </div>
+              <div class="col-sm-6 col-md-8">
+                <img src="img/payments.png" class="img-fluid" alt="payment">
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 col-lg-2">
+            <h4 class="mb-4">Useful Links</h4>
+            <ul>
+              <li><a href="#" class="mb-3 hvr-main-clr text-xm d-block">About Midas</a></li>
+              <li><a href="#" class="mb-3 hvr-main-clr text-xm d-block">How to shop on Molla</a></li>
+              <li><a href="#" class="mb-3 hvr-main-clr text-xm d-block">FAQ</a></li>
+              <li><a href="#" class="mb-3 hvr-main-clr text-xm d-block">Contact us</a></li>
+              <li><a href="#" class="mb-3 hvr-main-clr text-xm d-block">Log in</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4 col-lg-2">
+            <h4 class="mb-4">Customer Service</h4>
+            <ul>
+              <li><a href="#" class="mb-3 hvr-main-clr text-xm d-block">Payment Methods</a></li>
+              <li><a href="#" class="mb-3 hvr-main-clr text-xm d-block">Money-back guarantee!
+              </a></li>
+              <li><a href="#" class="mb-3 hvr-main-clr text-xm d-block">Returns</li>
+              <li><a href="#" class="mb-3 hvr-main-clr text-xm d-block">Shipping us</a></li>
+              <li><a href="#" class="mb-3 hvr-main-clr text-xm d-block">Terms and conditions</a></li>
+              <li><a href="#" class="mb-3 hvr-main-clr text-xm d-block">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4 col-lg-2">
+            <h4 class="mb-4">My Account</h4>
+            <ul>
+              <li><a href="#" class="mb-3 hvr-main-clr text-xm d-block">Sign In</a></li>
+              <li><a href="#" class="mb-3 hvr-main-clr text-xm d-block">View Cart</a></li>
+              <li><a href="#" class="mb-3 hvr-main-clr text-xm d-block">My Wishlist</a></li>
+              <li><a href="#" class="mb-3 hvr-main-clr text-xm d-block">Track My Order</a></li>
+              <li><a href="#" class="mb-3 hvr-main-clr text-xm d-block">Help</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end footer -->
+    <!-- script -->
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

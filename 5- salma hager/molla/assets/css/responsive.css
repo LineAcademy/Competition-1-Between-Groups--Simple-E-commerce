@@ -1,0 +1,253 @@
+  
+   /* 
+  ##Device = Extra Small Smartphones Mobiles (Portrait)
+  ##Screen = B/w 230px to 319px
+*/
+
+
+@media (min-width: 230px) and (max-width: 319px) {
+    .feature {
+        display: flex;
+        flex: auto;
+    }
+    .slide-subtitle
+    {
+        font-size: 2.5rem;
+    }
+    .slide-button a
+    {
+        font-size: 1rem;
+    }
+    .section-footer, footer {
+        padding: 20px;
+    }
+    copy-right-icons ul
+    {
+        padding-left: 0;
+    }
+    #add-to-cart {
+        margin: 0;
+    }
+    .list
+    {
+        display: block;
+    }
+    .blog-card
+    {
+        padding: 1rem;
+    }
+    .testimonials {
+        margin-bottom: 2rem;
+    }
+    #add-to-cart {
+        margin: 0;
+    }
+    .freq-price
+    {
+        text-align: center;
+    }
+    .add-item
+    {
+        justify-content: center;
+        width: auto;
+    }
+
+}
+  
+  
+  
+  
+  /* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 230px) and (max-width: 497px) {
+    
+    .first-header-section
+    {
+        text-align: center;
+    }
+    .first-header-section .icons_sec {
+        justify-content: center;
+    }
+    .second-header-section .search {
+        width: 91%;
+        padding: 0;
+        margin-left: 1rem;
+        border-radius: 0.7rem;
+        border: 1px solid #00000038;
+        line-height: 1;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding: 0 0.5rem;
+        justify-content: flex-start;
+    }
+    
+    .second-header-section .search input {
+        width: auto;
+        padding: 0.5rem 1rem;
+    }
+    .third-header-section
+    {
+        display: none;
+    }
+    .options-submenu
+    {
+        justify-content: space-between !important;
+    }
+    .features-section {
+        padding: 1rem;
+    }
+    .feature-title {
+        font-size: 1rem;
+    }
+    .sale .bg-image {
+        background-position: center;
+    }
+    .sale-card {
+        margin: 5px 0;
+    }
+    .sale-two {
+        margin-top: unset;
+    }
+    .sub-title {
+        font-size: 1.3rem;
+    }
+    .sub-newsletter {
+        margin-bottom: 1rem;
+        padding: 1rem;
+    }
+    .sub-icon {
+        font-size: 2rem;
+    }
+    .col-lg-5 {
+        flex: unset;
+        width: unset;
+    }
+    .gallery .bg-image {
+        background-position: center;
+    }
+    .list
+    {
+        display: block;
+    }
+    .blog-card
+    {
+        padding: 1rem;
+    }
+    .testimonials {
+        margin-bottom: 2rem;
+    }
+    #add-to-cart {
+        margin: 0;
+    }
+    .freq-price
+    {
+        text-align: center;
+    }
+    .add-item
+    {
+        justify-content: center;
+        width: auto;
+    }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px)
+{
+   
+    .sale-details >div {
+        width: unset;
+    }
+    .col-lg-5 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+    .feature-title {
+        font-size: 1.2rem;
+    }
+    .second-header-section .options-submenu .submenu-item span {
+        display: inline-block;
+        font-size: 0.7rem;
+    }
+    
+}
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+    .first-header-section
+    {
+        text-align: center;
+    }
+    .first-header-section .icons_sec {
+        justify-content: center;
+    }
+    .second-header-section .search {
+        width: 94%;
+        padding: 0;
+        margin-left: 1rem;
+        border-radius: 0.7rem;
+        border: 1px solid #00000038;
+        line-height: 1;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding: 0 0.5rem;
+        justify-content: flex-start;
+    }
+    
+    .second-header-section .search input {
+        width: auto;
+        padding: 0.5rem 1rem;
+    }
+    .third-header-section
+    {
+        display: none;
+    }
+    .options-submenu
+    {
+        justify-content: space-between !important;
+    }
+    .features-section {
+        padding: 1rem;
+    }
+    .feature-title {
+        font-size: 1rem;
+    }
+    .sale-details >div {
+        width: unset;
+    }
+    .col-lg-5 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+    .feature-title {
+        font-size: 1.2rem;
+    }
+    .second-header-section .options-submenu .submenu-item span {
+        display: inline-block;
+        font-size: 0.7rem;
+    }
+    .sale .bg-image {
+        background-position: center;
+    }
+    .sale-card {
+        margin: 5px 0;
+    }
+    .sale-two {
+        margin-top: unset;
+    }
+    .blog-card
+    {
+        padding: 1.3rem;
+    }
+    .testimonials {
+        margin-bottom: 2rem;
+    }
+}
+

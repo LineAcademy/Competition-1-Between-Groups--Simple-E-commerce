@@ -1,0 +1,240 @@
+/* Start Variables */
+:root {
+    --main-color: #a6c76c;
+}
+/* End Variables */
+/* Start Global Rules */
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    color: #404040;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: 	#404040;
+    font-weight: 400;
+    font-size: 14px;
+}
+/* End Global Rules */
+
+
+
+/* start  Navbar0*/
+#navbar0{
+    background-color: #f8f8f8;
+}
+#navbar0 .dropdown-menu{
+    min-width: 8rem !important;
+}
+/* end Navbar0 */
+
+/* start Navbar1 */
+#navbar1 .iconsNavColor{
+   color: black;
+   position: relative;
+}
+#navbar1 .iconsNavColor:hover{
+    color: var(--main-color);
+}
+#navbar1 .count{
+    position: absolute;
+    left: 68%;
+    top: 0px;
+    bottom: 60%;
+    background-color: var(--main-color);
+    color: white;
+    width: 15px;
+    height: 15px;
+}
+#navbar1 .cartCount{
+    left:85% !important;
+}
+#navbar1 .nav-item{
+    display: inline !important;
+}
+#navbar1 .navIcon
+{
+    margin-top: 10px;
+    flex-direction: row;
+}
+#navbar1 input{
+   border: 0px !important;
+}
+#navbar1 .collapse{
+   border: 1px solid #ccc;
+   transform: translateX(50%);
+}
+#navbar1 .navbar-toggler-icon{
+    background-image: unset;
+    color: black;
+}
+#navbar1 .breakNavs{
+    width: 90%;
+    color: #ccc;
+    margin: auto;
+}
+/* end Navbar1 */
+
+/* start Sidebar */
+#navbar1 .navbar .sideBar{
+    position: fixed;
+    top: 0;
+    left: -100%;
+    bottom: 0;
+    z-index: 9999;
+}
+#navbar1 .navbar .sideBar .searchIcons{
+    background-color: var(--main-color) !important;
+    color: white ;
+}
+#navbar1 .navbar .sideBar .nav .active{
+    color: var(--main-color) !important;
+}
+#navbar1 .navbar .sideBar .nav .nav-item{
+    border-bottom: 2px solid var(--main-color);
+}
+#navbar1.navbar .sideBar .nav .nav-item .nav-link:hover{
+    color: var(--main-color) !important;
+}
+/* end Sidebar */
+
+/* star Navbar2 */
+#navbar2 .navbar{
+    padding: 0rem !important;
+}
+#navbar2 .navbar .navbar-nav .nav-item:hover{
+     border-top: 1px solid var(--main-color);
+}
+#navbar2 .navbar .navbar-nav .nav-item:hover .nav-link{
+    color: var(--main-color) !important;
+}
+
+/* end Navbar2 */
+
+
+
+/* Start Navigator */
+.naving .best-selling .best-selling-list {
+    display: none;
+    background-color: beige;
+}
+.best-selling .best-selling-list li {
+    display: none;
+}
+/* End Navigator */
+/* Start Products */
+.shopTxt{
+    color: var(--main-color) !important;
+}
+.main-container .card {
+    display: inline-block;
+}
+.main-container .img-parent {
+    width: 220px;
+    height: 260px;
+    overflow: hidden;
+    position: relative;
+}
+.main-container .img-con {
+    width: 100%;
+    height: 100%;
+}    
+.main-container .img-con img {   
+    width: 100%;
+    height: 100%;
+}
+.main-container .cards .card .main-img {
+    opacity: 1;
+    visibility: visible;
+}
+.main-container .cards .card:hover .main-img {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+}
+.main-container .cards .card .hover-img {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 98;
+    max-width: 100%;
+    max-height: 100%;
+}
+.main-container .cards .card:hover .hover-img {
+    opacity: 1;
+    visibility: visible;
+    max-width: 100%;
+    max-height: 100%;
+    transition: all 2.8s ease-in-out;
+    transition-delay: -1.5s;
+    transform: scale(1.1);
+}
+
+.main-container .cards .card .cart-link {
+    visibility: hidden;
+    opacity: 0;
+}
+.main-container .cards .card:hover .cart-link {
+    visibility: visible;
+    opacity: 1;
+    color: black;
+}
+.main-container .cards .card .cart-link:hover {
+    background-color: var(--main-color);
+}
+.main-container .cards .card .img-con .icons {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    margin-right: 13px;
+    margin-top: 20px;
+}
+.main-container .icons {
+    opacity: 0;
+    visibility: hidden;
+}
+.main-container .cards .card:hover .icons {
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.5s;
+}
+.aside-whishlist{
+    position: relative;
+}
+.aside-whishlist::after {
+    opacity: 0;
+    visibility: hidden;
+    content: "Add To Whishlist";
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    background-color: var(--main-color);
+    left: -300%;
+    top: 0%;
+    z-index: -1;
+    border-radius: 30px;
+    padding: 7px 28px 4px 8px;
+    text-align: center;
+    font-size: 11px;
+}
+.aside-whishlist:hover::after {
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.5s ease-in;
+    color: white;
+}
+.aside-whishlist:hover .aside-icon {
+    color: white;
+    transition: all 0.5s;
+}
+
+/* End Products */
+/* Start Sidebar */
+
+/* End Sidebar */

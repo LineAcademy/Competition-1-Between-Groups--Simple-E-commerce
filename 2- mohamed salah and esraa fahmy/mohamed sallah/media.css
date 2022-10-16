@@ -1,0 +1,122 @@
+/* RESPONSIVE <= MEDIA FILE */
+@media(max-width:1340px){
+    .header-categories .right {
+        display: none;
+    }
+    .header-categories-items{
+        border-right: none;
+    }
+    .bought .catogery img{
+        width: 150px;
+    }
+    .like-boxes{
+        justify-content: flex-start;
+    }
+}
+@media(max-width:1150px){
+    .main-hero{
+        flex-direction: column;
+        gap: 1cm;
+    }
+    .main-hero .left{
+        width: 100%;
+    }
+    .main-hero .right{
+        width: 100%;
+    }
+    footer{
+        flex-direction: column;
+    }
+    footer .left,footer .right{
+        width: 100%;
+    }
+}
+@media(max-width:1000px){
+    header .search{
+        display: none;
+    }
+    .header-categories{
+        display: none;
+    }
+    header .bar-icon-links,
+    header .bar-icon-links-close{
+    display: flex;
+    }
+    header .items{
+        gap: 20px;
+    }
+    header .items .icons{
+        font-size: 17px;
+    }
+    header .items p{
+        display: none;
+    }
+    .top-head-items{
+        display: none;
+    }
+    header .bar-icon-links,
+    header .bar-icon-links-close{
+        width: .5cm;
+        height: .5cm;
+    }
+}
+@media(max-width:770px){
+    .information .info-catogery{
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:580px){
+    .main-hero .left{
+        flex-direction: column;
+    }
+    .main-hero .left nav{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 30px ;
+    }
+    .main-hero .left section{
+        width: 2.5cm;
+        height: 2.5cm;
+    }
+    .main-hero .left .main-box img{
+        width: 90%;
+    }
+    .bought .catogery{
+        display: block;
+    }
+    .bought .catogery .price{
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        gap: 10px;
+    }
+    .bought .info-price button{
+        width: 100%;
+    }
+    .bought .info-price{
+        width: 100%;
+    }
+    footer .right {
+        flex-direction: column;
+        gap: 20px;
+    }
+    footer .right .title .click{
+        cursor: pointer;
+    }
+    footer .right .title .open-links{
+        display: block;
+    }
+    footer .right section{
+        height: 1.3cm;
+        overflow: hidden;
+        padding: 4px;
+        border-bottom: 1px solid #eeecec;
+    }
+}
+@media(max-width:390px){
+    body{
+        width: 390px;
+    }
+}

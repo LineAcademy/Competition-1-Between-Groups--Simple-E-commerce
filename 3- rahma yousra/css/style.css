@@ -1,0 +1,378 @@
+/* General Properties */
+:root{
+    --main-color:#a6c76c;
+}
+*::selection{
+    background-color: var(--main-color); 
+    color: white;
+}
+/* End General Properties */
+
+/* start  Navbar0*/
+#navbar0{
+    background-color: #f8f8f8;
+}
+#navbar0 .dropdown-menu{
+    min-width: 8rem !important;
+}
+/* end Navbar0 */
+
+/* start Navbar1 */
+#navbar1 .iconsNavColor{
+   color: black;
+   position: relative;
+}
+#navbar1 .iconsNavColor:hover{
+    color: var(--main-color);
+}
+#navbar1 .count{
+    position: absolute;
+    left: 68%;
+    top: 0px;
+    bottom: 60%;
+    background-color: var(--main-color);
+    color: white;
+    width: 15px;
+    height: 15px;
+}
+#navbar1 .cartCount{
+    left:85% !important;
+}
+#navbar1 .nav-item{
+    display: inline !important;
+}
+#navbar1 .navIcon
+{
+    margin-top: 10px;
+    flex-direction: row;
+}
+#navbar1 input{
+   border: 0px !important;
+}
+#navbar1 .collapse{
+   border: 1px solid #ccc;
+   transform: translateX(50%);
+}
+#navbar1 .navbar-toggler-icon{
+    background-image: unset;
+    color: black;
+}
+#navbar1 .breakNavs{
+    width: 90%;
+    color: #ccc;
+    margin: auto;
+}
+/* end Navbar1 */
+
+/* start Sidebar */
+#navbar1 .navbar .sideBar{
+    position: fixed;
+    top: 0;
+    left: -100%;
+    bottom: 0;
+    z-index: 9999;
+}
+#navbar1 .navbar .sideBar .searchIcons{
+    background-color: var(--main-color) !important;
+    color: white ;
+}
+#navbar1 .navbar .sideBar .nav .active{
+    color: var(--main-color) !important;
+}
+#navbar1 .navbar .sideBar .nav .nav-item{
+    border-bottom: 2px solid var(--main-color);
+}
+#navbar1.navbar .sideBar .nav .nav-item .nav-link:hover{
+    color: var(--main-color) !important;
+}
+/* end Sidebar */
+
+/* star Navbar2 */
+#navbar2 .navbar{
+    padding: 0rem !important;
+}
+#navbar2 .navbar .navbar-nav .nav-item:hover{
+     border-top: 1px solid var(--main-color);
+}
+#navbar2 .navbar .navbar-nav .nav-item:hover .nav-link{
+    color: var(--main-color) !important;
+}
+
+/* end Navbar2 */
+
+
+/* Start AddToCart */
+#home .homeLink:hover{
+   color: var(--main-color) !important;
+}
+#home .threeImgs img {
+    width: 140px !important;
+}
+#home .threeImgs video{
+    width: 100px !important;
+    height: 100px !important;
+}
+#home .mainImg{
+    position: relative;
+}
+#home .arrows{
+    position: absolute;
+    bottom: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#home .homeTxt .sizeBgcolor1{
+    background-color: var(--main-color) !important;
+    color: white;
+}
+#home .homeTxt .sizeBgcolor2{
+    background-color: #ccc !important;
+    color: black;
+}
+#home .homeTxt .sizeGuide{
+    transition:  all 0.5s;
+ }
+#home .homeTxt .sizeGuide:hover{
+   color: black !important;
+}
+#home .homeTxt .homeAddToCart{
+    background-color: var(--main-color);
+}
+#home .homeTxt .homeAddToCart:hover{
+    box-shadow: 0 5px 10px rgba(0,0,0,.15) !important;
+    background-color: #92b25a;
+}
+#home .homeTxt .heartColor,#home .homeTxt .shuffleColor{
+    color: var(--main-color) !important;
+}
+#home .homeTxt .homeTxtIcon{
+    border-right:1px dashed #ccc;
+}
+#home .homeTxt .hoverAll .heartIconTxt{
+    transition: all .5s;
+}
+#home .homeTxt .hoverAll:hover .heartIconTxt{
+    color: var(--main-color);
+     text-decoration: underline;
+}
+#home .homeTxt .category{
+    transition: all 0.5s;
+}
+#home .homeTxt .category:hover{
+    color: var(--main-color) !important;
+}
+#home .homeTxt .socialIcons span {
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     border: 1px solid #ccc;
+}
+#home .homeTxt .socialIcons span{
+    transition: all 0.5s;
+}
+#home .homeTxt .socialIcons span:hover{
+    border-color: var(--main-color) !important;
+    color: var(--main-color) !important;
+}
+
+/* End AddToCart */
+
+
+/* Start BoughtTogether */
+.BoughtTogether .boughtImgs img{
+   width: 150px !important;
+}
+
+.BoughtTogether .boughtBtn{
+    background-color: var(--main-color);
+    color: white !important;
+}
+.BoughtTogether .boughtBtn:hover{
+    box-shadow: 0 5px 10px rgba(0,0,0,.15) !important;
+    background-color: #92b25a !important;
+}
+.BoughtTogether input:checked{
+    accent-color: black;
+}
+.BoughtTogether .check{
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+.BoughtTogether .viewMore{
+    color: var(--main-color);
+}
+.BoughtTogether .collapse{
+    transform: none;
+    border: none !important;
+}
+.BoughtTogether .accordion-button{
+    color: #92b25a !important;
+    background-color: transparent !important;
+    border-color: transparent;
+}
+.BoughtTogether .accordion-button:not(.collapsed)::after,.BoughtTogether .accordion-button::after {
+    background-image: none !important;
+}
+.BoughtTogether .accordion-button:focus
+{
+    box-shadow: 0 0 0 0 !important;
+}
+.BoughtTogether .accordion-item
+{
+    border: none !important;
+}
+.BoughtTogether .accordion-button:not(.collapsed){
+    box-shadow: 0 0 0 0;
+}
+.BoughtTogether .accordion-button
+{
+    display: block ;
+}
+ /* BoughtTogether */ 
+
+
+/* Start Navs */
+.navs .nav-link:active,.navs .nav-link:hover{
+    color: var(--main-color) !important;
+    /* text-decoration: underline !important; */
+    cursor: pointer;
+}
+.navs .nav-item:active{
+   border-bottom: 1px solid #92b25a;
+}
+.navs .content{
+    border: 1px solid #ccc;
+}
+.navs .content .contentInfoList{
+    text-decoration: underline;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.navs .content .contentInfoList:hover{
+    color: var(--main-color) !important;
+}
+.navs .content .shippingHours{
+    color: var(--main-color) !important;
+}
+/* End Navs */
+
+
+/* Start Recently Viewed & cardMayLike*/
+  .recently-viewed  button{
+    border: 1px solid #ccc !important;
+    display: none;
+  }
+  .recently-viewed button:hover{
+    box-shadow: 0 5px 10px rgba(0,0,0,.15) !important;
+    background-color: #92b25a !important;
+    border: 1px solid var(--main-color) !important;
+    color: white !important;
+  }
+  .recently-viewed .card{
+        border: none !important;
+        transition: all 2s;
+  }
+  .recently-viewed .card .card-text{
+    transition: all 0.5s;
+  }
+  .recently-viewed .card .card-text:hover{
+    color: var(--main-color) !important;
+  }
+
+  .recently-viewed .card:hover .hoverImg,.recently-viewed .card:hover button{
+     display: block !important;
+  }
+  
+  .recently-viewed .card{
+    overflow: hidden;
+  }
+  .recently-viewed .card:hover .mainImg{
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+  }
+  .recently-viewed .card .hoverImg{
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 98;
+  }
+  .recently-viewed .card:hover .hoverImg{
+    opacity: 1;
+    visibility: visible;
+    transition: all 2.8s ease-in-out;
+    transition-delay: -1.5s;
+    transform: scale(1.1);
+  }
+  .recently-viewed .card:hover{
+    box-shadow:  rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+  }
+  .recently-viewed .card .cardImgs{
+    position: relative;
+  }
+  .recently-viewed .card .icons{
+    position: absolute;
+    z-index: 99;
+  }
+  .recently-viewed .card .icons{
+    visibility: hidden;
+  }
+  .recently-viewed .card:hover .icons{
+    visibility: visible;
+  }
+   .recently-viewed .card .icons p span{
+    visibility: hidden;
+   }
+  .recently-viewed .card .icons p:hover {
+    color: white !important;
+    background-color: var(--main-color) !important;
+  }
+   .recently-viewed .card .icons p,.recently-viewed .card .icons p span{
+    transition:  all 0.5s;
+   }
+  .recently-viewed .card .icons p:hover span{
+   visibility: visible;
+    color: white !important;
+  }
+  .recently-viewed .card .tooltip{
+    opacity: 1 !important;
+  }
+  /* .recently-viewed .card:hover .addToCartBtn{
+    display: block;
+  } */
+
+/* End Recently Viewed & cardMayLike */
+
+
+/* Start Footer */
+.footerUsefulLinks{
+    list-style: none;
+}
+.footerUsefulLinks li{
+    transition: all 0.5s;
+}
+.footerUsefulLinks li:hover{
+    color: var(--main-color)  !important;
+} 
+footer .socialIcon .facebook{
+    color:   #1977f2 !important;
+}
+footer .socialIcon .twitter{
+    color:  #79c8ed !important;
+}
+footer .socialIcon .google{
+    color:  #d74937 !important;
+}
+footer .socialIcon .instagram{
+    color:   #dd6d9a !important;
+}
+footer .socialIcon .instagram{
+    color:   #e66262 !important;
+}
+/* End Footer */
+
+

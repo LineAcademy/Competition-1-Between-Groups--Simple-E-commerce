@@ -1,0 +1,16 @@
+/* Start BoughtTogether */
+@media (max-width:768px) {
+    .BoughtTogether .boughtImgs img{
+        width: 100px !important;
+     }
+    
+
+}
+@media (max-width:992px) {
+    header .imgHeader{
+        width: 100%;
+        height: 100vh;
+   }
+   
+}
+/* End BoughtTogether */
